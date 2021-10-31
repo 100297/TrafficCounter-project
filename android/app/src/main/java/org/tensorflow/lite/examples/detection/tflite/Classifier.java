@@ -97,6 +97,15 @@ public interface Classifier {
             return new RectF(location);
         }
 
+       // public int[] getCenter() {
+       //     int centerX = location.centerX();
+       //     int centerY = location.centerY();
+       //     int[] center = new int[2]
+       //     center[0] = centerX;
+
+       //     return center;
+       // }
+
         public void setLocation(RectF location) {
             this.location = location;
         }
